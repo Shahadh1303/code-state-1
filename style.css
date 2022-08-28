@@ -4,8 +4,9 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    background: none;
 }
- 
+
 nav{
     height: 80px;
     width: 100%;
@@ -101,3 +102,8 @@ nav #icon{
     }
 }
 
+section{
+    background: url(./home-img.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 0px);
+}
