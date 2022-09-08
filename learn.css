@@ -103,11 +103,41 @@ nav #icon{
 }
 
 .heading{
-    padding-top: 150px;
+    padding-top: 120px;
     margin-left: 20px;
 }
 
 .para{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.heading2{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.para2{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.heading3{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.lang-list{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.heading4{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.para4{
     padding-top: 30px;
     margin-left: 20px;
 }

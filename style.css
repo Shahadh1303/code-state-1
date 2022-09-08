@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Roboto', sans-serif;
-    background: none;
+    background: rgb(14, 14, 54);
 }
 
 nav{
@@ -102,9 +102,52 @@ nav #icon{
     }
 }
 
-section{
+.container{
+    text-align: center;
+}
+
+.btn1{
+    margin-top: 324px;
+    background-color: #3498db;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 14px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.btn2{
+    margin-top: 34px;
+    background-color: #3498db;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 14px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.btn3{
+    margin-top: 34px;
+    background-color: #3498db;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 14px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+/* section{
     background: url(./home-img.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 0px);
-}
+} */
+
 
