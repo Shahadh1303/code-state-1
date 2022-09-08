@@ -102,9 +102,12 @@ nav #icon{
     }
 }
 
-section{
-    background: url(./home-img.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 0px);
+.heading{
+    padding-top: 150px;
+    margin-left: 20px;
 }
 
+.para{
+    padding-top: 30px;
+    margin-left: 20px;
+}
