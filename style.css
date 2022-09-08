@@ -144,10 +144,13 @@ nav #icon{
     outline: none;
     font-size: 15px;
 }
-/* section{
-    background: url(./home-img.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 0px);
-} */
 
+.text{
+    text-decoration: none;
+    color: white;
+    background: none;
+}
 
+.text:hover{
+    color: white;
+}

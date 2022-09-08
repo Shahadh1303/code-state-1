@@ -1,9 +1,17 @@
 Code State Todos
 ================
 
-: learn button
-: learn page
+: learn button #
+: learn page #
 : html page
 : css page
 : js page
 : about page
+
+/* section{
+    background: url(./home-img.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 0px);
+} */
+
+<!-- <section><button class="para">Learn</button></section> -->
