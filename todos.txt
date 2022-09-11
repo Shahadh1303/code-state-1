@@ -1,18 +1,10 @@
-Code State Todos
+CodeState Todos
 ================
 
 : learn button #
 : learn page #
-: login & register page
+: register page #
 : html page
 : css page
 : js page
 : about page
-
-/* section{
-    background: url(./home-img.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 0px);
-} */
-
-<!-- <section><button class="para">Learn</button></section> -->
