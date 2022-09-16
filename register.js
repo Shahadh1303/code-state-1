@@ -37,4 +37,3 @@ register_btn.addEventListener('click', (e) => {
         alert('Your registration was succesful');
     }
 }); 
-

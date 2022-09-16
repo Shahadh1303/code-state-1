@@ -214,3 +214,7 @@ font-size:90px;
 .email-p, .password-p, .username-p{
     color: red;
 }
+
+.acc-name{
+    color: #3498db;
+}

@@ -8,3 +8,5 @@ CodeState Todos
 : css page
 : js page
 : about page
+
+Link: https://r-lashan.github.io/code-state/
