@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -146,5 +148,12 @@ nav #icon{
 }
 
 .text:hover{
+    color: white;
+}
+
+.acc-name{
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 12px;
     color: white;
 }
