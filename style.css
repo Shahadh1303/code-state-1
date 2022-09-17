@@ -157,3 +157,9 @@ nav #icon{
     margin-left: 12px;
     color: white;
 }
+
+.logout{
+    margin-top: 25px;
+    color: #3498db;
+    cursor: pointer;
+}
