@@ -4,6 +4,7 @@ CodeState Todos
 : learn button #
 : learn page #
 : register page #
+: logout button #
 : html page
 : css page
 : js page
