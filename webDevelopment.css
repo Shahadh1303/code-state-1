@@ -107,55 +107,22 @@ nav #icon{
     margin-left: 20px;
 }
 
+.heading2{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
 .para{
     padding-top: 30px;
     margin-left: 20px;
 }
 
-.heading2{
-    padding-top: 50px;
-    margin-left: 20px;
-}
-
 .para2{
-    padding-top: 30px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
-.heading3{
-    padding-top: 50px;
-    margin-left: 20px;
+.tipList li{
+    margin-bottom: 10px;
 }
 
-.lang-list{
-    margin-left: 20px;
-    padding-top: 20px;
-}
-
-.heading4{
-    padding-top: 50px;
-    margin-left: 20px;
-}
-
-.para4{
-    padding-top: 30px;
-    margin-left: 20px;
-}
-
-.arr-right{
-    width: 10px;
-    margin-left: 10px;
-    fill: #3498db;
-}
-
-.text{
-    font-size: 17px;
-    margin-left: 20px;
-    margin-bottom: 57px;
-    color: #3498db;
-}
-
-.link{
-    text-decoration: none;
-    color: #3498db;
-}
