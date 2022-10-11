@@ -131,3 +131,27 @@ nav #icon{
     width: 500px;
     height: 200px;
 }
+
+.css-desk{
+    margin-left: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.arr-right{
+    width: 10px;
+    margin-left: 10px;
+    fill: #3498db;
+}
+
+.text{
+    font-size: 17px;
+    margin-bottom: 57px;
+    color: #3498db;
+    padding: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #3498db;
+}

@@ -124,3 +124,15 @@ nav #icon{
     margin-top: 20px;
     margin-left: 20px;
 }
+
+.text{
+    font-size: 17px;
+    margin-bottom: 57px;
+    color: #3498db;
+    padding: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #3498db;
+}
