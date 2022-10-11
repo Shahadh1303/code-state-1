@@ -150,9 +150,9 @@ nav #icon{
 
 .text{
     font-size: 17px;
-    margin-left: 20px;
     margin-bottom: 57px;
     color: #3498db;
+    padding: 20px;
 }
 
 .link{

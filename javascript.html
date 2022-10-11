@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code State - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="icon" href="./Images/Logo.jpeg">
     <link rel="stylesheet" href="./javascript.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -82,6 +83,163 @@
         <li>x stores the value 5</li>
         <li>y stores the value 6</li>
         <li>z stores the value 11</li>
+    </ul>
+    <br>
+    <h1 class='heading2'>JavaScript Arithmetic Operators</h1>
+    <h4 class='heading2'>Arithmetic operators perform arithmetic on numbers (literals or variables).</h4>
+    <br>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Operators</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>+</td>
+            <td>Addition</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>-</td>
+            <td>Subtraction</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>*</td>
+            <td>Multiplication</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>/</td>
+            <td>Division</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>++</td>
+            <td>Increment</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>--</td>
+            <td>Decrement</td>
+          </tr>
+        </tbody>
+      </table>
+    <br>
+    <h1 class='heading2'>JavaScript Data Types</h1>
+    <h4 class='heading2'>JavaScript variables can hold different data types: numbers, strings, objects and more:</h4>
+    <ul class="para2">
+      <li>let length = 16; // Number</li>
+      <li>let lastName = "Johnson"; // String</li>
+      <li>let x = {firstName:"John", lastName:"Doe"}; // Object</li>
+    </ul>
+    <h4 class='heading2'>JavaScript variables can hold different data types: numbers, strings, objects and more:</h4>
+    <ul class="para2">
+      <li><b>In programming, data types is an important concept.</b></li>
+      <li><b>To be able to operate on variables, it is important to know something about the type.</b></li>
+      <li><b>Without data types, a computer cannot safely solve this:</b></li>
+    </ul>
+    <br>
+    <h1 class='heading2'>JavaScript Objects</h1>
+    <ul class="para2">
+      <li>In real life, a car is an <b>object</b></li>
+      <li>A car has properties like <b>weight</b> and <b>color</b>, and methods like start and stop</li>
+      <li>All cars have the same properties, but the property values differ from car to car.</li>
+      <li>All cars have the same methods, but the methods are performed at different times.</li>
+    </ul>
+    <h4 class='heading2'>Examples for <b>objects</b>:</h4>
+    <ul class="para2">
+      <li><b>Example 1:</b></li>
+      <br>
+      <li>const car = {type:"Fiat", model:"500", color:"white"}; //This is an Object</li>
+      <li>console.log("The car type is " + car.type + "it's model is " + car.model + " and it's color is " + car.color)</li>
+      <br>
+      <li><b>Output:</b></li>
+      <br>
+      <li>The car type is <b>Fiat</b> it's model is <b>500</b> and it's color is <b>white</b></li>
+      <br>
+      <li><b>Example 2:</b></li>
+      <br>
+      <li>const person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 50,
+        eyeColor: "blue"
+      };</li>
+      <li>console.log(person.firstName + " is " + person.age + " years old and he's eye color is " + person.eyeColor)</li>
+      <br>
+      <li><b>Output:</b></li>
+      <br>
+      <li><b>John</b> is <b>50</b> years old and he's eye color is <b>blue</b></li>
+    </ul>
+    <br>
+    <h1 class='heading2'>JavaScript Arrays</h1>
+    <ul class="para2">
+        <li><b>An array is a special variable, which can hold more than one value:</b></li>
+        <br>
+        <li>const cars = ["Saab", "Volvo", "BMW"];</li>
+    </ul>
+    <h4 class='heading2'>Why we use Arrays?</h4>
+    <ul class="para2">
+      <li>If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this</li>
+      <br>
+      <li>let car1 = "Saab";</li>
+      <li>let car2 = "Volvo";</li>
+      <li>let car3 = "BMW";</li>
+      <br>
+      <li>However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?, The solution is an array! An array can hold many values under a single name, and you can access the values by referring to an index number.</li>
+    </ul>
+    <h4 class='heading2'>Creating an Array</h4>
+    <ul class="para2">
+      <li>Using an array literal is the easiest way to create a JavaScript Array</li>
+      <br>
+      <b>Syntax:</b>
+      <br>
+      <br>
+      <li>const array_name = [item1, item2, ...]; //It is a common practice to declare arrays with the const keyword. </li>
+      <br>
+      <li><b>Example 1:</b></li>
+      <br>
+      <li>const cars = ["Saab", "Volvo", "BMW"];</li>
+      <li>console.log(cars);</li>
+      <br>
+      <b>Output:</b>
+      <br>
+      <br>
+      <li>[ 'Saab', 'Volvo', 'BMW' ]</li>
+      <br>
+      <li><b>Note:</b></li>
+      <br>
+      <li>The first element of the Array is always considered as <b>0</b></li>
+      <br>
+      <li><b>Example 2:</b></li>
+      <br>
+      <li>const cars = ["Saab", "Volvo", "BMW"];</li>
+      <li>console.log(cars[0]);</li>
+      <li>console.log(cars[1]);</li>
+      <li>console.log(cars[2]);</li>
+      <br>
+      <li><b>Output:</b></li>
+      <br>
+      <li>Saab</li>
+      <li>Volvo</li>
+      <li>BMW</li>
+      <br>
+      <li><b>You can also create an array, and then provide the elements:</b></li>
+      <br>
+      <li>const cars = [];</li>
+      <li>cars[0]= "Saab";</li>
+      <li>cars[1]= "Volvo";</li>
+      <li>cars[2]= "BMW";</li>
+      <li>console.log(cars);</li>
+      <br>
+      <li><b>Output:</b></li>
+      <br>
+      <li>[ 'Saab', 'Volvo', 'BMW' ]</li>
     </ul>
 </body>
 </html>
